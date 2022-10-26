@@ -1,0 +1,880 @@
+
+@font-face {
+    font-family: "GoldenAge";
+    src: url(../fonts/Gameplay.ttf);
+}
+
+@font-face {
+    font-family: "Jersey";
+    src: url(../fonts/jersey-m54-font.zip);
+}
+
+@font-face {
+    font-family: "Number";
+    src: url(../fonts/numberfont.ttf);
+}
+.link-index{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.body{
+    background-image: linear-gradient(#0b0610,#123b6a,#0b0610);
+    background-position: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+.main-title{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-self: center;
+    font-family: "GoldenAge", sans-serif;
+    font-weight: bolder;
+    font-size: 80px;
+    color:#fcc243;
+}
+
+
+.logo-title{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+}
+
+.nav-bar{
+    top: 20px;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    background-color:  rgba(128, 128, 128, 0.224);
+}
+
+.cart-button{
+    align-self: center;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    color: white;
+    margin-left: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.cart{
+    display: flex;
+    margin-left: auto;
+}
+
+.cart-icon{
+    align-self: center;
+    width: 20px;
+    height: 20px;
+}
+
+.cart-content{
+    position: absolute;
+    display: none;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-bottom: 100px;
+}
+
+.cart-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cart-button:hover .cart-content{
+    align-self: flex-end;
+    color: black;
+    padding: 12px 16px;
+    margin-top: 30px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cart-text:hover .cart-content{
+    align-self: center;
+    color: black;
+    padding: 12px 16px;
+    margin-top: 30px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cart-text{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    align-self: center;
+}
+.menu-arrow{
+    max-width: 40px;
+    max-height: 40px;
+    margin-top: 120px;
+    margin-left: 0px;
+    float: right;
+    
+}
+
+
+.dropbutton{
+    background-color: transparent;
+    color: white;
+    padding: 8px;
+    gap: 300px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dropdown{
+    display: block;
+    align-items: left;
+}
+
+.dropdown:hover{
+    background-color: grey;
+}
+
+.drop-content{
+    position: absolute;
+    display: none;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-bottom: 100px;
+}
+
+.drop-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.drop-content a:hover{
+    background-color: grey;
+
+    
+}
+
+.dropdown:hover .drop-content{
+    display: block;
+    
+}
+
+.drop:hover .dropbutton{
+    background-color: #3e8e41;
+}
+
+.index-button{
+
+    display: inherit;
+    float: left;
+    background-color: transparent;
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.footer{
+    max-height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    height: auto;
+    border-top: solid rgba(128, 128, 128, 0.74);
+}
+
+.footer-list{
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 30px;
+    line-height: 30px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding-bottom: 0px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.redes-sociales{
+    margin-top: 10px;
+    margin-right: 0px;
+    word-spacing: 20px;
+    line-height: 30px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.no-bullet{
+    list-style: none;
+}
+
+.text{
+    color: #c5c6c7;
+}
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.novedades{
+    color: #66f6f1; ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    align-self: flex-start;
+    border-bottom: 3px solid grey;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.novedades-destacadas{
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    gap: 100px;
+}
+
+
+.img{
+    max-width: 300px;
+    max-height: 200px;
+    box-shadow: 10px 10px 10px ;
+    align-self: center;
+}
+
+.location{
+    margin-top: 20px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.mail-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.email-text{
+    margin-top: 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.email-input{
+    padding: 4px;
+    width: 210px;
+    border-radius: 10px;
+}
+
+.submit-btn{
+    border-radius: 5px;
+    margin-top: 10px;
+    max-width: 400px;
+    align-self: center;
+}
+
+.submit-btn:hover{
+    background-color: grey;
+    color: white;
+}
+
+
+.banner-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.banner-pc{
+    background: url(../images/bannerpc.png);
+    background-size: contain;
+    background-position: center;
+    opacity: 80%;
+    background-color: grey;
+    
+    height: 120px;
+    width: 600px;
+}
+
+.banner-ps{
+    background: url(../images/bannerps.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 80%;
+    background-color: grey;
+    
+    height: 120px;
+    width: 600px;
+}
+
+.banner-funko{
+    background: url(../images/bannerfunko.jpg);
+    background-size: contain;
+    background-position: center;
+    opacity: 80%;
+    background-color: grey;
+    
+    height: 120px;
+    width: 600px;
+}
+
+.banner-colec{
+    background: url(../images/bannercolec.png);
+    background-size: cover;
+    background-position: center;
+    opacity: 80%;
+    background-color: grey;
+    
+    height: 120px;
+    width: 600px;
+}
+
+.banner-xbox{
+    background: url(../images/bannerxbox.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 80%;
+    background-color: grey;
+    height: 120px;
+    width: 600px;
+}
+
+
+.product:hover {
+    size-adjust: 100%;
+    background-repeat: no-repeat;
+}
+
+.product:target + .price{
+    display: none;
+}
+
+.product-name{
+    color: white;
+    font-size: 20px;
+    align-self: center;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-items: center;
+    justify-items: center; 
+    row-gap: 50px;
+    justify-content: space-evenly;
+    
+}
+
+.product{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px;
+    width: 250px;
+    height: 450px;
+    
+    
+}
+
+
+.product-photo{
+    height: 300px;
+    width: 250px;
+    background-image: url(../images/buzojw.jpeg);
+    align-self: flex-start;
+    background-size: contain;
+    background-repeat: no-repeat;
+} 
+
+.product-figure-photo{
+    height: 250px;
+    width: 250px;
+    background-image: url(../images/colectibles.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.price-container{
+    position: relative;
+    display: flex;
+    justify-content:center;
+    height: 25px;
+    width: 100%;
+    
+    
+}
+
+.price{
+    align-self: center;
+    color: black;
+    font-size: 15px;
+    font-family: "Jersey", sans-serif;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
+}
+
+.buy-button{
+    background-color:#fcc243;
+    width: 150px;
+    align-self: center;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    padding: 7px;
+    font-size: 15px;
+    float: inline-start;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.card{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto !important;
+    border: none;
+    border-radius: 20px;
+}
+
+.card-body{
+    background-image: linear-gradient( rgb(2, 16, 19) 0%, rgb(67, 67, 67) );
+
+}
+
+.card-img-top{
+    height:300px;
+    width: 300px;
+}
+
+.card-title{
+    color: white;
+}
+
+.card-caption{
+    color: white;
+}
+
+.card-price{
+    color: white;
+}
+
+.buy-button:hover{
+    background-color: grey;
+    color: transparent;
+    background-image: url(../images/icons/cart.ico);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-weight: bolder ;
+    transition-property:all ;
+    transition-duration: 0.5s;
+    transition-timing-function:linear;
+}
+
+.index-games{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 60px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    justify-items: center;
+    justify-items: center;
+    margin-bottom: 40px;
+    
+}
+
+.index-news{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-items: center;
+    justify-content: center;  
+    justify-items: center; 
+    column-gap: 35px;
+    margin-bottom: 40px;
+}
+
+.index-product{
+    scroll-snap-align: start;
+    display: flex;
+    width: 280px;
+    height: 400px;
+    column-gap: 300px;
+    flex-direction: column;
+    box-shadow: 10px 10px 10px;
+    
+}
+
+.news-product{
+    scroll-snap-align: start;
+    display: flex;
+    width: 300px;
+    height: 450px;
+    column-gap: 300px;
+    flex-direction: column;
+    box-shadow: 10px 10px 10px;
+    
+}
+
+
+.news-product-photo{
+    height: 300px;
+    width: 400px;
+    background-image: url(../images/buzojw.jpeg);
+    align-self: center;
+    margin: 0 auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: flex-end;
+} 
+
+.carrousel-indicator{
+    height: 10px !important;
+    width: 10px !important;
+    margin-right: 17px !important;
+    border-radius: 100%;
+}
+
+
+
+.carousel-indicators{
+    bottom: -50px;
+    border-bottom: solid 3px rgba(128, 128, 128, 0.373);
+}
+
+.carousel-inner{
+    margin-bottom: 50px !important;
+}
+
+.carousel-photo{
+
+    justify-self: center;
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+}
+
+.carousel-control-prev{
+    margin-right: 10px;
+}
+
+.news-1{
+    background-image: url(../images/buzojw.jpeg);
+}
+
+
+.test{
+    height: 300px;
+}
+
+.jumbotron{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-image: linear-gradient(rgb(4, 164, 196) 0%, rgb(3, 75, 163));
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.jumbo-btn{
+    margin-left: 20px;
+    background-color: #fcc243;
+    
+    
+}
+
+.jumbo-btn:hover{
+    background-color: grey;
+    border-radius: 20px;
+    transition-property:all ;
+    transition-duration: 1s;
+    transition-timing-function: linear;    
+}
+
+.jumbo-text{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-self: center;
+}
+
+.jumbo-title{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-self: center;
+}
+
+.jumbotron-pc{
+    margin: 0 auto  ;
+    background-image: url(../images/bannerpc.png);
+    background-repeat: no-repeat;
+    
+}
+.jumbo{
+    align-items: center;
+    }
+
+.carousel-control-prev-icon{
+    background-color: black;
+}
+
+.carousel-control-next-icon{
+    background-color: black;
+}
+
+.btn-toolbar{
+    grid-row-start: 9;
+    grid-column-start: -3;
+    grid-row-end: 10;
+    grid-column-end: -1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    column-gap: 20px;
+}
+
+.page-button{
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.page-button:hover{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.index-text{
+    margin-top: 100px;
+    color: #fcc243;
+}
+
+.index-text-ttl{
+    grid-area: title;
+}
+
+
+/* DEJAR DEBAJO DE TODO */
+
+
+/*   CELULARES CHICOS MAX 480PX */
+@media (max-width: 480px) {
+
+    
+
+
+    .novedades-destacadas {
+        display: inline-block;
+        
+    }
+
+    .index-text{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .img{
+        width: 25%;
+        height: 30%;
+        gap: 300px;
+    }
+
+    .products{
+        grid-template-columns: repeat(2, 2fr);
+        grid-template-rows: repeat(2, 2fr);
+        justify-content: space-around;
+        column-gap: 0px;
+    }
+
+    .product{
+        background-size: contain;
+        width: 140px;
+        height: 250px;
+        
+    }
+
+    .product-photo{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 140px;
+        height: 150px;
+    }
+
+    .product-figure-photo{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 140px;
+        height: 150px;
+    }
+
+    .product-name{
+        font-size: 10px;
+    }
+
+    .main-title{
+        font-size: 70px;
+    }
+
+    .carrousel-arrow{
+        display: none;
+    }
+
+    .main-title{
+        font-size: 40px;
+    }
+
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+    }
+
+    .mail-form{
+        align-items: flex-start;
+    }
+
+    .email-input{
+        width: 150px;
+    }
+
+    .email-text{
+        font-size: smaller;
+    }
+
+    .banner-pc{
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 45px;
+        width: 300px ;
+    }
+
+    .logo-pc{
+        background-repeat: no-repeat;
+        height: 45px ;
+    }
+
+    .banner-ps{
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 45px;
+        width: 300px ;
+    }
+
+    .logo-ps{
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 45px ;
+    }
+
+    .banner-xbox{
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 45px;
+        width: 300px ;
+    }
+
+    .logo-xbox{
+        background-repeat: no-repeat;
+        height: 45px ;
+    }
+
+    .cart-button:hover .cart-content{
+        align-self: flex-end;
+    }
+
+    .index-product{
+        height: 250px;
+        width: 140px;
+        
+    }
+
+    .index-games{
+        margin-left: 20px;
+        justify-content: normal;
+        overflow: scroll;
+        column-gap: 50px;
+    }
+
+    .index-news{
+        margin-left: 20px;
+        overflow: scroll;
+        height: 250px;
+    }
+
+    .card-caption{
+        display: none;
+    }
+
+    .card{
+        width: 200px;
+    }
+
+    .card-img-top{
+        width: 200px;
+        height: 200px;
+    }
+
+    .jumbo-text{
+        font-size: 15px;
+    }
+
+    .jumbo-title{
+        font-size: 20px;
+    }
+
+    .jumbotron{
+        width: 100%;
+    }
+
+    .buy-button{
+        width: 120px;
+    }
+
+    }

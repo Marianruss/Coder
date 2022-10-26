@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title class="Tab_title">Geekers - Inicio</title>
+    <link rel="icon" href="images/icons/hongomario.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="body">
+
+    <div>
+        <!--                                          -->
+        <!--                                                 -->
+        <!-- Header con portada, barra de navegación, logo y titulo -->
+
+        <header>
+
+            <div class="logo-title">
+                <h1 class="main-title">GEEKERS</h1>
+            </div>
+
+            <nav class="nav-bar">
+
+                <button class="index-button">
+                    <a href="index.html" class="link-index">Inicio</a>
+                </button>
+
+                <!-- Menú de juegos-->
+                <div class="dropdown">
+                    <button class="dropbutton">Juegos</button>
+                    <div class="drop-content">
+                        <a href="./pages/pcgames.html">PC</a>
+                        <a href="./pages/psgames.html">PlayStation</a>
+                        <a href="./pages/xboxgames.html">Xbox</a>
+                    </div>
+                </div>
+
+
+
+                <!-- Menú de coleccionables -->
+                <div class="dropdown">
+                    <button class="dropbutton">Coleccionables</button>
+                    <div class="drop-content">
+                        <a href=./pages/funkos.html>Funkos</a>
+                        <a href="./pages/figures.html">Figuras</a>
+                    </div>
+
+                </div>
+
+                <div class="cart">
+                    <button class="cart-button">
+                        <img src="images/icons/cart.ico" class="cart-icon">
+                        <div class="cart-content">
+                            Tu carrito está vacío
+                        </div>
+                    </button>
+                </div>
+    </div>
+
+
+
+    <!-- Main content -->
+    <main>
+        <section>
+        <h2 class="novedades">Nuevos ingresos</h2>
+
+        <div id="carouselnews" class="carousel slide carousel-fade col"  data-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                    class="active carrousel-indicator" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    class="carrousel-indicator" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    class="carrousel-indicator" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    class="carrousel-indicator" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    class="carrousel-indicator" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    class="carrousel-indicator" aria-label="Slide 6"></button>
+            </div>
+
+            <div class="carousel-inner container">
+                <div class="carousel-item active">
+                    <img class="d-block w-50 carousel-photo" src="images/buzojw.jpeg" alt="Buzo Jurassic Park">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="product-name">Buzo Jurassic Park</h5>
+                        <p class="price">$2200  </p>
+                        <button class="buy-button">Añadir al carro</button>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="d-block w-50  carousel-photo" src="images/tazahp.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="product-name">Taza escudo de Hogwarts</h5>
+                        <p class="price">$450</p>
+                        <button class="buy-button">Añadir al carro</button>
+                    </div>
+                </div>
+
+
+                <div class="carousel-item">
+                    <img class="d-block w-75 carousel-photo" src="images/colectibles.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="product-name">Figura Vegeta Final Flash</h5>
+                        <p class="price">$6000</p>
+                        <button class="buy-button">Añadir al carro</button>
+                    </div>
+                </div>
+
+                <div class="carousel-item container">
+                    <img class="d-block w-75 carousel-photo" src="images/dragonage.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="product-name">Dragon Age Inquisition Steam</h5>
+                        <p class="price">$1300</p>
+                        <button class="buy-button">Añadir al carro</button>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="d-block w-75 carousel-photo" src="images/halo.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="product-name">Halo The Master Chief <br> Collection</h5>
+                        <p class="price">$3500</p>
+                        <button class="buy-button">Añadir al carro</button>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="d-block w-50 carousel-photo" src="images/funkoharry.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="product-name">Funko-Pop Harry Potter</h5>
+                        <p class="price">$350</p>
+                        <button class="buy-button">Añadir al carro</button>
+                    </div>
+                </div>
+
+
+            </div>
+            <a class="carousel-control-prev" href="#carouselnews" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+
+            <a class="carousel-control-next" href="#carouselnews" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+    </section>
+
+
+    <section class="container-fluid">
+            <h2 class="novedades">Juegos en oferta</h2>
+
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card h-100">
+                            <img src="images/godofwar.jfif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">God of war</h5>
+                                <p class="card-caption">Embarcate en una aventura junto a Kratos y su hijo Atreus,
+                                    esta vez contra los dioses nordicos</p>
+                                <p class="card-price"><del>$1500</del> <strong>$800</strong></p>
+                                <a href="#" class="btn btn-primary buy-button">Agregar al carro</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item ">
+                        <div class="card h-50">
+                            <img src="images/residentevil4.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Resident evil 4</h5>
+                                <p class="card-caption">Acompaña a Leon Kennedy en su misión para
+                                    rescatar a la hija del presidente</p>
+                                <p class="card-price"><del>$450</del> <strong>$300</strong></p>
+                                <a href="#" class="btn btn-primary buy-button">Agregar al carro</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item ">
+                        <div class="card h-100">
+                            <img src="images/mk11.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mortal Kombat 11</h5>
+                                <p class="card-caption">Ayuda a tus personajes favoritos a salvar
+                                    la linea temporal
+                                </p>
+                                    <p class="card-price"><del>$750</del> <strong>$550</strong></p>
+                                <a href="#" class="btn btn-primary buy-button">Agregar al carro</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item ">
+                        <div class="card h-100">
+                            <img src="images/plaguetale.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">A plague tale</h5>
+                                <p class="card-caption">Acompaña a Amicia y Hugo en un viaje a traves
+                                    de la Inglaterra del siglo XIV
+                                </p>
+                                    <p class="card-price"><del>$850</del> <strong>$400</strong></p>
+                                <a href="#" class="btn btn-primary buy-button">Agregar al carro</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+            </div>
+        </section>
+
+        <section class="index-text container-fluid row col-sm">
+            <h3 class="index-text-ttl">Sobre nosotros</h3>
+            <p class="col-6">Esta es una tienda geek realizada para el curso de desarrollo web de Coderhouse, me anoté en este curso porque me interesaba saber como funciona por detras el mundo web.</p>
+            <p class="col-6">Acá podés conseguir las ultimas novedades en juegos y figuras coleccionables. Abarcamos juegos de todas las plataformas y tanto figuras coleccionables como así tambien Funko-pop</p>
+            <p class="col-12">Somos entusiastas del gaming y es por esto que abrimos esta tienda, queremos compartir nuestra pasión con ustedes por medio de juegos a precios accesibles y figuras exclusivas.</p>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus delectus nostrum laboriosam quaerat sint quibusdam cum, suscipit mollitia asperiores at.</p> -->
+        </section>
+
+
+
+        
+
+
+        <br>
+        <br>
+        <br>
+
+        <div class="jumbotron">
+            <h2 class="jumbo-title" data-aos="zoom-in" data-aos-duration="3000" >Participá de nuestro mega sorteo</h2>
+            <p class="jumbo-text" data-aos="zoom-in" data-aos-duration="1500" >Podes ganar dos juegos y dos figuras a elección!!!</p>
+            <p><a class="btn btn-primary btn-lg jumbo-btn" data-aos="fade-left" data-aos-duration="1000" href="#" role="button">Participar</a></p>
+        </div>
+    </main>
+
+
+
+    <!-- Footer -->
+
+    <footer>
+        <div>
+            <div class="footer">
+                <ul class="footer-list">
+                    <li style="list-style-image: url(images/icons/joystick-16.ico);">Juegos</li>
+                    <div class="no-bullet">
+                        <li>
+                            <a class="link" href="./pages/psgames.html">PlayStation</a>
+                        </li>
+
+                        <li>
+                            <a class="link" href="./pages/xboxgames.html">Xbox</a>
+                        </li>
+
+                        <li>
+                            <a class="link" href="./pages/pcgames.html">PC</a>
+                        </li>
+                    </div>
+                </ul>
+
+
+
+                <ul class="footer-list">
+                    <li style="list-style-image: url(images/icons/crown.ico) ;">Coleccionables</li>
+                    <div class="no-bullet">
+                        <li>
+                            <a class="link" href="./pages/funkos.html">Funko-Pop</a>
+                        </li>
+                        <li>
+                            <a class="link" href="./pages/figures.html">Figuras</a>
+                        </li>
+                    </div>
+
+                </ul>
+
+                <ul class="redes-sociales">
+                    <li style="list-style-image: url(images/icons/whatsapp.png)" ;>
+                        <a class="link" href="#">WhatsApp</a>
+                    </li>
+                    <li style="list-style-image: url(images/icons/instagram.png)" ;>
+                        <a class="link" href="https://www.instagram.com/">Instagram</a>
+                    </li>
+                    <li style="list-style-image: url(images/icons/email.ico)" ;>
+                        <a class="link" href="mailto:elcorreoquequieres@correo.com">Email</a>
+                    </li>
+                    <li style="list-style-image: url(images/icons/facebook.ico)" ;>Facebook</li>
+                </ul>
+
+                <div class="mail-form">
+                    <p class="email-text">Recibí las mejores novedades!</p>
+                    <form action="" class="mail-form">
+                        <input type="email" class="email-input" placeholder="Ingresá tu email...">
+                        <button type="submit" class="submit-btn">Enviar</button>
+                    </form>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+</body>
+
+</html>
