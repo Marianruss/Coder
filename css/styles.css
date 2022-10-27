@@ -386,6 +386,7 @@ header{
 .product-name{
     color: white;
     font-size: 20px;
+    margin-top: 10px;
     align-self: center;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
@@ -947,6 +948,21 @@ header{
     }
 
     .banner-pc{
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 45px;
+        width: 300px ;
+    }
+
+    .banner-funko{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 70px;
+        width: 300px ;
+    }
+
+    .banner-colec{
         background-repeat: no-repeat;
         background-size: cover;
         height: 45px;
