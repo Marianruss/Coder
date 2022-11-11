@@ -1,0 +1,57 @@
+.card{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 20px;
+
+    .card-img-top{
+        height:300px;
+        width: 300px;
+    }
+
+    .card-title{
+        color: white;
+    }
+    
+    .card-caption{
+        color: white;
+    }
+    
+    .card-price{
+        color: white;
+    }
+    
+        .card-body{
+        background-image: linear-gradient( rgb(2, 16, 19) 0%, rgb(67, 67, 67) );
+
+        .buy-button {
+            background-color: #fcc243;
+            width: 120px;
+            align-self: center;
+            color: black;
+            border-radius: 10px;
+            border: none;
+            padding: 7px;
+            font-size: 15px;
+            float: inline-start;
+            margin-bottom: 10px;
+            font-weight: bold;
+
+            &:hover{
+                background-color: grey;
+                color: transparent;
+                background-image: url(../images/icons/cart.ico);
+                background-repeat: no-repeat;
+                background-position: center;
+                font-weight: bolder;
+                transition-property: all;
+                transition-duration: 0.5s;
+                transition-timing-function: linear;  
+            }
+        }
+            
+
+        }
+
+}

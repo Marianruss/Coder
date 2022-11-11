@@ -1,0 +1,241 @@
+
+.body .banner-funko{
+    background: url(../images/bannerfunko.jpg);
+    background-size: contain;
+    background-position: center;
+    opacity: 80%;
+    background-color: grey;
+    height: 120px;
+    width: 600px;
+}
+
+.product{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px;
+    width: 250px;
+    height: 450px;
+
+
+    .product-funko-photo-1{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/funkopictures/funkoharry.jpg);
+        background-position  : top center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    } 
+    
+    .product-funko-photo-2{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/funkopictures/superskrull.jpg);
+        align-self: flex-start;
+        background-size: contain;
+        background-position: top center;
+        background-repeat: no-repeat;
+    } 
+    
+    .product-funko-photo-3{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/funkopictures/funkogeralt.jpg);
+        align-self: flex-start;
+        background-size: contain;
+        background-position:top center;
+        background-repeat: no-repeat;
+    } 
+    
+    .product-funko-photo-4{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/funkopictures/funkobatman.jpg);
+        align-self: flex-start;
+        background-size: contain;
+        background-repeat: no-repeat;
+    } 
+    
+    .product-funko-photo-5{
+        height: 300px;
+        width:250px;
+        background-image: url(../images/funkopictures/funkoradioactiveman.jpg);
+        align-self: flex-start;
+        background-size: contain;
+        background-position:top center;
+        background-repeat: no-repeat;
+    } 
+    
+    .product-funko-photo-6{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/funkopictures/funkoandromeda.jpg);
+        align-self: flex-start;
+        background-size: contain;
+        background-position:top center;
+        background-repeat: no-repeat;
+    } 
+    
+    .product-funko-photo-7{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/funkopictures/funkocapitan.jpg);
+        align-self: flex-start;
+        background-size: contain;
+        background-position:top center;
+        background-repeat: no-repeat;
+    
+    } 
+    
+    .product-funko-photo-8{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/funkopictures/funkodeadpool.png);
+        align-self: flex-start;
+        background-size: contain;
+        background-position:top center;
+        background-repeat: no-repeat;
+    } 
+    
+    .product-funko-photo-9{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/funkopictures/funkogollum.jpg);
+        align-self: flex-start;
+        background-size: contain;
+        background-position:top center;
+        background-repeat: no-repeat;
+    } 
+    
+    
+    .product-funko-photo-10{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/funkopictures/funkoboruto.jpg);
+        align-self: flex-start;
+        background-size: contain;
+        background-position:top center;
+        background-repeat: no-repeat;
+    } 
+    
+    
+    .product-funko-photo-11{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/funkopictures/funkomechafreezer.jpg);
+        align-self: flex-start;
+        background-size: contain;
+        background-position:top center;
+        background-repeat: no-repeat;
+    } 
+    
+    
+    .product-funko-photo-12{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/funkopictures/funkocell.jpg);
+        align-self: flex-start;
+        background-size: contain;
+        background-position:top center;
+        background-repeat: no-repeat;
+    } 
+    
+    .product-funko-photo-13{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/funkopictures/funkovegeta.jpg);
+        align-self: flex-start;
+        background-size: contain;
+        background-position:top center;
+        background-repeat: no-repeat;
+    } 
+    
+    
+    .product-funko-photo-14{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/funkopictures/funkosuperman.jpg);
+        align-self: flex-start;
+        background-size: contain;
+        background-position:top center;
+        background-repeat: no-repeat;
+    } 
+    
+    
+    .product-funko-photo-15{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/funkopictures/funkoww.jpg);
+        align-self: flex-start;
+        background-size: contain;
+        background-position:top center;
+        background-repeat: no-repeat;
+    } 
+    
+    
+    .product-funko-photo-16{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/funkopictures/funkoazula.jpg);
+        align-self: flex-start;
+        background-size: contain;
+        background-position:top center;
+        background-repeat: no-repeat;
+    } 
+
+    .price-container{
+        position: relative;
+        display: flex;
+        justify-content:center;
+        height: 25px;
+        width: 100%;
+        
+        .price{
+            align-self: center;
+            color: black;
+            font-size: 15px;
+            font-family: "Jersey", sans-serif;
+            font-weight: bolder;
+            margin-bottom: 10px;
+            text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+        }
+        
+    }
+
+    .product-name{
+        color: white;
+        font-size: 20px;
+        margin-top: 10px;
+        align-self: center;
+        text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    }
+
+    .buy-button{
+        background-color:#fcc243;
+        width: 150px;
+        align-self: center;
+        color: black;
+        border-radius: 10px;
+        border: none;
+        padding: 7px;
+        font-size: 15px;
+        float: inline-start;
+        margin-bottom: 10px;
+        font-weight: bold;
+
+        &:hover{
+            background-color: grey;
+            color: transparent;
+            background-image: url(../images/icons/cart.ico);
+            background-repeat: no-repeat;
+            background-position: center;
+            font-weight: bolder ;
+            transition-property:all ;
+            transition-duration: 0.5s;
+            transition-timing-function:linear;
+        }
+    }
+    
+
+
+}

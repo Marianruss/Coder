@@ -1,0 +1,230 @@
+.product{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px;
+    width: 250px;
+    height: 450px;
+
+
+    .pc-photo-1{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/gamepictures/dragonage.jpg);
+        background-position  : top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    } 
+    
+    .pc-photo-2{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/gamepictures/residentevil4.webp);
+        align-self: flex-start;
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+    } 
+    
+    .pc-photo-3{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/gamepictures/halo.jpg);
+        align-self: flex-start;
+        background-size: cover;
+        background-position:top center;
+        background-repeat: no-repeat;
+    } 
+    
+    .pc-photo-4{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/gamepictures/plaguetale.webp);
+        align-self: flex-start;
+        background-size: cover;
+        background-repeat: no-repeat;
+    } 
+    
+    .pc-photo-5{
+        height: 300px;
+        width:250px;
+        background-image: url(../images/gamepictures/godofwar.jfif);
+        align-self: flex-start;
+        background-size: cover;
+        background-position:top center;
+        background-repeat: no-repeat;
+    } 
+    
+    .pc-photo-6{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/gamepictures/mk11.jpg);
+        align-self: flex-start;
+        background-size: cover;
+        background-position:top center;
+        background-repeat: no-repeat;
+    } 
+    
+    .pc-photo-7{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/gamepictures/eldenring.jpg);
+        align-self: flex-start;
+        background-size: cover;
+        background-position:top center;
+        background-repeat: no-repeat;
+    
+    } 
+    
+    .pc-photo-8{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/gamepictures/metroexodus.webp);
+        align-self: flex-start;
+        background-size: cover;
+        background-position:top center;
+        background-repeat: no-repeat;
+    } 
+    
+    .pc-photo-9{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/gamepictures/witcher3.jpg);
+        align-self: flex-start;
+        background-size: cover;
+        background-position:top center;
+        background-repeat: no-repeat;
+    } 
+    
+    
+    .pc-photo-10{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/gamepictures/skyrim.jpg);
+        align-self: flex-start;
+        background-size: cover;
+        background-position:top center;
+        background-repeat: no-repeat;
+    } 
+    
+    
+    .pc-photo-11{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/gamepictures/sekiro.webp);
+        align-self: flex-start;
+        background-size: cover;
+        background-position:top center;
+        background-repeat: no-repeat;
+    } 
+    
+    
+    .pc-photo-12{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/gamepictures/shadowofmordor.jpeg);
+        align-self: flex-start;
+        background-size: cover;
+        background-position:top center;
+        background-repeat: no-repeat;
+    } 
+    
+    .pc-photo-13{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/gamepictures/doom.jpg);
+        align-self: flex-start;
+        background-size: cover;
+        background-position:top center;
+        background-repeat: no-repeat;
+    } 
+    
+    
+    .pc-photo-14{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/gamepictures/sfv.webp);
+        align-self: flex-start;
+        background-size: cover;
+        background-position:top center;
+        background-repeat: no-repeat;
+    } 
+    
+    
+    .pc-photo-15{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/gamepictures/brutallegend.jpg);
+        align-self: flex-start;
+        background-size: cover;
+        background-position:top center;
+        background-repeat: no-repeat;
+    } 
+    
+    
+    .pc-photo-16{
+        height: 300px;
+        width: 250px;
+        background-image: url(../images/gamepictures/mgsv.jpg);
+        align-self: flex-start;
+        background-size: cover;
+        background-position:top center;
+        background-repeat: no-repeat;
+    } 
+
+    .price-container{
+        position: relative;
+        display: flex;
+        justify-content:center;
+        height: 25px;
+        width: 100%;
+        
+        .price{
+            align-self: center;
+            color: black;
+            font-size: 15px;
+            font-family: "Jersey", sans-serif;
+            font-weight: bolder;
+            margin-bottom: 10px;
+            text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+        }
+        
+    }
+
+    .product-name{
+        color: white;
+        font-size: 20px;
+        margin-top: 10px;
+        align-self: center;
+        text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    }
+
+    .buy-button{
+        background-color:#fcc243;
+        width: 150px;
+        align-self: center;
+        color: black;
+        border-radius: 10px;
+        border: none;
+        padding: 7px;
+        font-size: 15px;
+        float: inline-start;
+        margin-bottom: 10px;
+        font-weight: bold;
+
+        &:hover{
+            background-color: grey;
+            color: transparent;
+            background-image: url(../images/icons/cart.ico);
+            background-repeat: no-repeat;
+            background-position: center;
+            font-weight: bolder ;
+            transition-property:all ;
+            transition-duration: 0.5s;
+            transition-timing-function:linear;
+        }
+    }
+    
+
+
+}

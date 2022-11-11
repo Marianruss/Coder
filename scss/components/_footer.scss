@@ -1,0 +1,86 @@
+@import "../utils/variables.scss";
+
+
+.footer{
+    max-height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    height: auto;
+    border-top: solid rgba(128, 128, 128, 0.74);
+
+    .footer-list{
+        text-align: left;
+        display: inline-block;
+        vertical-align: top;
+        padding-bottom: 30px;
+        line-height: 30px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+        padding-bottom: 0px;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        .link{
+            list-style: none;
+        }
+        
+    }
+
+    
+
+    .redes-sociales{
+        margin-top: 10px;
+        margin-right: 0px;
+        word-spacing: 20px;
+        line-height: 30px;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                
+    }
+
+    .link{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .mail-form{
+        display: flex;
+        flex-direction: column;
+
+        .email-text{
+            margin-top: 10px;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+        .email-input{
+            padding: 4px;
+            width: 210px;
+            border-radius: 10px;
+        }
+
+        .submit-btn{
+            border-radius: 5px;
+            margin-top: 10px;
+            max-width: 400px;
+            align-self: center;
+
+            &:hover{
+                background-color: grey;
+                color: white;
+            }
+        }
+
+    }
+}
+
+@media (min-width: 480px) {
+
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+    }
+
+    }
