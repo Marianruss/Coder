@@ -968,8 +968,10 @@ header .cart .cart-content a {
   height: 300px;
   width: 250px;
   background-image: url(../images/figurepictures/cell.webp);
-  background-position  : top center;
-  background-size: cover;
+  align-self : flex-start;
+  background-size: contain;
+  background-position:  center;
+  /* background-position:  center; */
   background-repeat: no-repeat;
 } 
 
@@ -1463,10 +1465,7 @@ header .cart .cart-content a {
 }
 
 .carousel-photo{
-  /* object-fit: contain;
-  justify-self: center; */
   margin: 0 auto;
-  /* position: relative; */
   display: inline-block;
 }
 
@@ -1618,22 +1617,6 @@ header .cart .cart-content a {
       background-size: contain;
       width: 200px;
       height: 340px;
-  }
-
-  .product-photo{
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      width: 140px;
-      height: 150px;
-  }
-
-  .product .product-figure-photo-1{
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      width: 140px;
-      height: 150px;
   }
 
   .product .product-name{
