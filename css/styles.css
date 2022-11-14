@@ -19,6 +19,14 @@ header .logo-title {
   gap: 60px;
   align-items: center;
 }
+
+.no-bullet{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
 header .main-title {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -27,6 +35,7 @@ header .main-title {
   font-weight: bolder;
   font-size: 8vw;
   color: #fcc243;
+  /* text-decoration: none; */
 }
 header .nav-bar {
   top: 20px;
@@ -990,6 +999,7 @@ header .cart .cart-content a {
   background-image: url(../images/figurepictures/shenlong.jpg);
   align-self: flex-start;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 } 
 
@@ -1349,7 +1359,8 @@ header .cart .cart-content a {
 .card-img-top{
   height:300px;
   width: 100%;
-  
+  object-fit: cover; 
+  object-position: top  ;
 }
 
 .card-title{
@@ -1452,10 +1463,10 @@ header .cart .cart-content a {
 }
 
 .carousel-photo{
-
-  justify-self: center;
+  /* object-fit: contain;
+  justify-self: center; */
   margin: 0 auto;
-  position: relative;
+  /* position: relative; */
   display: inline-block;
 }
 
@@ -1596,17 +1607,17 @@ header .cart .cart-content a {
       gap: 300px;
   }
 
-  .products{
-      grid-template-columns: repeat(2, 2fr);
-      grid-template-rows: repeat(2, 2fr);
-      justify-content: space-around;
+  body .products{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       column-gap: 0px;
   }
 
   .product{
       background-size: contain;
-      width: 140px;
-      height: 250px;
+      width: 200px;
+      height: 340px;
   }
 
   .product-photo{
@@ -1626,7 +1637,7 @@ header .cart .cart-content a {
   }
 
   .product .product-name{
-      font-size: 10px;
+      font-size: 15px;
   }
 
   .main-title{
