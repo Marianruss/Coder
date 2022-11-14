@@ -969,7 +969,7 @@ header .cart .cart-content a {
   width: 250px;
   background-image: url(../images/figurepictures/cell.webp);
   align-self : flex-start;
-  background-size: contain;
+  background-size: cover;
   background-position:  center;
   /* background-position:  center; */
   background-repeat: no-repeat;
