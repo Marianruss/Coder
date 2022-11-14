@@ -1,6 +1,27 @@
+/* Comienzan fuentes */
+
+@font-face {
+    font-family: "GoldenAge";
+    src: url(../fonts/Gameplay.ttf);
+}
+
+@font-face {
+    font-family: "Jersey";
+    src: url(../fonts/jersey-m54-font.zip);
+}
+
+@font-face {
+    font-family: "Number";
+    src: url(../fonts/numberfont.ttf);
+}
+
+/* Finalizan fuentes */
+
+@import "../utils/variables.scss";
 
 .body{
-    background-image: linear-gradient(#0b0610,#123b6a,#0b0610);
+
+    background-image: $primary-color;
     background-position: center;
     max-width: 900px;
     margin: 0 auto;

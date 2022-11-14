@@ -1,24 +1,3 @@
-/* Comienzan fuentes */
-
-@font-face {
-    font-family: "GoldenAge";
-    src: url(../fonts/Gameplay.ttf);
-}
-
-@font-face {
-    font-family: "Jersey";
-    src: url(../fonts/jersey-m54-font.zip);
-}
-
-@font-face {
-    font-family: "Number";
-    src: url(../fonts/numberfont.ttf);
-}
-
-/* Finalizan fuentes */
-
-
-
 @import "./components/_header.scss";
 @import "./components/products.scss";
 @import "./pages/producto-pc.scss";
