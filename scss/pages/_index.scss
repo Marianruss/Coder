@@ -1,7 +1,4 @@
-.novedades-destacadas {
-    display: inline-block;
-    
-}
+
 
 .body .novedades{
     color: #66f6f1; ;
@@ -12,4 +9,9 @@
     margin-bottom: 20px;
     margin-top: 100px;
     width: 100%;
+
+    & .novedades-destacadas {
+        display: inline-block;
+        
+    }
 }

@@ -35,8 +35,14 @@ header .main-title {
   font-weight: bolder;
   font-size: 8vw;
   color: #fcc243;
-  /* text-decoration: none; */
+  transition: linear 0.1s;
 }
+
+header .main-title:hover{
+  font-size: 8.3vw;
+  color: grey;
+}
+
 header .nav-bar {
   top: 20px;
   display: flex;
@@ -181,148 +187,7 @@ header .cart .cart-content a {
   width: 200px;
   height: 450px;
 }
-.product .pc-photo-1 {
-  height: 300px;
-  width: 250px;
-  background-image: url(../images/gamepictures/dragonage.jpg);
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.product .pc-photo-2 {
-  height: 300px;
-  width: 250px;
-  background-image: url(../images/gamepictures/residentevil4.webp);
-  align-self: flex-start;
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-}
-.product .pc-photo-3 {
-  height: 300px;
-  width: 250px;
-  background-image: url(../images/gamepictures/halo.jpg);
-  align-self: flex-start;
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-}
-.product .pc-photo-4 {
-  height: 300px;
-  width: 250px;
-  background-image: url(../images/gamepictures/plaguetale.webp);
-  align-self: flex-start;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.product .pc-photo-5 {
-  height: 300px;
-  width: 250px;
-  background-image: url(../images/gamepictures/godofwar.jfif);
-  align-self: flex-start;
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-}
-.product .pc-photo-6 {
-  height: 300px;
-  width: 250px;
-  background-image: url(../images/gamepictures/mk11.jpg);
-  align-self: flex-start;
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-}
-.product .pc-photo-7 {
-  height: 300px;
-  width: 250px;
-  background-image: url(../images/gamepictures/eldenring.jpg);
-  align-self: flex-start;
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-}
-.product .pc-photo-8 {
-  height: 300px;
-  width: 250px;
-  background-image: url(../images/gamepictures/metroexodus.webp);
-  align-self: flex-start;
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-}
-.product .pc-photo-9 {
-  height: 300px;
-  width: 250px;
-  background-image: url(../images/gamepictures/witcher3.jpg);
-  align-self: flex-start;
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-}
-.product .pc-photo-10 {
-  height: 300px;
-  width: 250px;
-  background-image: url(../images/gamepictures/skyrim.jpg);
-  align-self: flex-start;
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-}
-.product .pc-photo-11 {
-  height: 300px;
-  width: 250px;
-  background-image: url(../images/gamepictures/sekiro.webp);
-  align-self: flex-start;
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-}
-.product .pc-photo-12 {
-  height: 300px;
-  width: 250px;
-  background-image: url(../images/gamepictures/shadowofmordor.jpeg);
-  align-self: flex-start;
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-}
-.product .pc-photo-13 {
-  height: 300px;
-  width: 250px;
-  background-image: url(../images/gamepictures/doom.jpg);
-  align-self: flex-start;
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-}
-.product .pc-photo-14 {
-  height: 300px;
-  width: 250px;
-  background-image: url(../images/gamepictures/sfv.webp);
-  align-self: flex-start;
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-}
-.product .pc-photo-15 {
-  height: 300px;
-  width: 250px;
-  background-image: url(../images/gamepictures/brutallegend.jpg);
-  align-self: flex-start;
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-}
-.product .pc-photo-16 {
-  height: 300px;
-  width: 250px;
-  background-image: url(../images/gamepictures/mgsv.jpg);
-  align-self: flex-start;
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-}
+
 .product .price-container {
   position: relative;
   display: flex;
@@ -359,17 +224,6 @@ header .cart .cart-content a {
   margin-bottom: 10px;
   font-weight: bold;
 }
-.product .buy-button:hover {
-  background-color: grey;
-  color: transparent;
-  background-image: url(../images/icons/cart.ico);
-  background-repeat: no-repeat;
-  background-position: center;
-  font-weight: bolder;
-  transition-property: all;
-  transition-duration: 0.5s;
-  transition-timing-function: linear;
-}
 
 .product {
   display: flex;
@@ -381,7 +235,7 @@ header .cart .cart-content a {
 }
 
 .body .banner-pc{
-    background: url("../images/bannerpc.png");
+    background: url("../images/banners/bannerpc.png");
     background-size: contain;
     background-position:  center;
     opacity: 80%;
@@ -393,7 +247,7 @@ header .cart .cart-content a {
 }
 
 .body .banner-funko{
-  background: url("../images/bannerfunko.jpg");
+  background: url("../images/banners/bannerfunko.jpg");
   background-size: cover;
   background-position: center;
   opacity: 80%;
@@ -405,7 +259,7 @@ header .cart .cart-content a {
 }
 
 .body .banner-ps{
-  background: url(../images/bannerps.jpg);
+  background: url(../images/banners/bannerps.jpg);
   background-size: cover;
   background-position: center;
   opacity: 80%;
@@ -417,7 +271,7 @@ header .cart .cart-content a {
 }
 
 .body .banner-xbox{
-  background: url(../images/bannerxbox.jpg);
+  background: url(../images/banners/bannerxbox.jpg);
   background-size: cover;
   background-position: center;
   opacity: 80%;
@@ -429,7 +283,7 @@ header .cart .cart-content a {
 }
 
 .body .banner-colec{
-  background: url(../images/bannercolec.png);
+  background: url(../images/banners/bannercolec.png);
   background-size: cover;
   background-position: center;
   opacity: 80%;
@@ -524,7 +378,7 @@ header .cart .cart-content a {
 .product .product-ps-photo-9{
   height: 300px;
   width: 250px;
-  background-image: url(../images/pspictures/farcry6.webp);
+  background-image: url(../images/pspictures/farcry6.jpg);
   align-self: flex-start;
   background-size: cover;
   background-position:top center;
@@ -1059,7 +913,7 @@ header .cart .cart-content a {
 .product-figure-photo-10{
   height: 300px;
   width: 250px;
-  background-image: url(../images/figurepictures/gohanssj2.webp);
+  background-image: url(../images/figurepictures/gohanssj2.jpg);
   align-self: flex-start;
   background-size: cover;
   background-position:top center;
@@ -1142,7 +996,7 @@ header .cart .cart-content a {
 .product .pc-photo-2 {
   height: 300px;
   width: 250px;
-  background-image: url(../images/gamepictures/residentevil4.webp);
+  background-image: url(../images/gamepictures/residentevil4.jpg);
   align-self: flex-start;
   background-size: cover;
   background-position: top center;
@@ -1160,7 +1014,7 @@ header .cart .cart-content a {
 .product .pc-photo-4 {
   height: 300px;
   width: 250px;
-  background-image: url(../images/gamepictures/plaguetale.webp);
+  background-image: url(../images/gamepictures/plaguetale.jpg);
   align-self: flex-start;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1195,7 +1049,7 @@ header .cart .cart-content a {
 .product .pc-photo-8 {
   height: 300px;
   width: 250px;
-  background-image: url(../images/gamepictures/metroexodus.webp);
+  background-image: url(../images/gamepictures/metroexodus.jpg);
   align-self: flex-start;
   background-size: cover;
   background-position: top center;
@@ -1222,7 +1076,7 @@ header .cart .cart-content a {
 .product .pc-photo-11 {
   height: 300px;
   width: 250px;
-  background-image: url(../images/gamepictures/sekiro.webp);
+  background-image: url(../images/gamepictures/sekiro.jpg);
   align-self: flex-start;
   background-size: cover;
   background-position: top center;
@@ -1422,17 +1276,6 @@ header .cart .cart-content a {
   float: inline-start;
   margin-bottom: 10px;
   font-weight: bold;
-}
-.product .buy-button:hover {
-  background-color: grey;
-  color: transparent;
-  background-image: url(../images/icons/cart.ico);
-  background-repeat: no-repeat;
-  background-position: center;
-  font-weight: bolder;
-  transition-property: all;
-  transition-duration: 0.5s;
-  transition-timing-function: linear;
 }
 
 .body .novedades{
