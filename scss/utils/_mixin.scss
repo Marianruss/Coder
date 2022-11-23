@@ -1,8 +1,8 @@
-$phone: 480px;
+$phone: 375px;
 
 @mixin prod-responsive($breakpoint) {
     @if $breakpoint==$mobile{
-        @media only screen and (max-width: 480px){
+        @media only screen and (max-width: 375px){
             @content
             
         }
